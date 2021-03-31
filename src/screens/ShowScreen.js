@@ -9,7 +9,10 @@ const ShowScreen = ({ route }) => {
     blog => blog.id === route.params.id
   );
 
-  return <Text>{blogPost.title}</Text>;
+  return <View>
+    <Text>{blogPost.title}</Text>
+    <Text>{blogPost.content}</Text>
+  </View>
 };
 
 export default ShowScreen;
