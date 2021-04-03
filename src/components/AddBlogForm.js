@@ -25,7 +25,7 @@ AddBlogForm.defaultProps = {
     title: "",
     content: "",
   },
-}
+};
 
 const styles = StyleSheet.create({
   label: {
